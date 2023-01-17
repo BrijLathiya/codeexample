@@ -9,7 +9,7 @@ public class palindrom {
             System.out.println("not a palindrom");
             return;
         }
-        else if(s.charAt(i)==s.charAt(j)){
+        else if(s.charAt(i)==s.charAt(j)){ 
             i++;
             j--;
         }
